@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <input class="textview" id="text"><br>
+            <input class="button" value="AC" type="button" onclick="clearDisplay()">
+            <input class="button" value="DEL" type="button" onclick="back()">
+            <input class="button" value="%" type="button" onclick="insert('%')">
+            <input class="button" value="/" type="button" onclick="insert('/')"><br>
+            <input class="button" value="7" type="button" onclick="insert('7')">
+            <input class="button" value="8" type="button" onclick="insert('8')">
+            <input class="button" value="9" type="button" onclick="insert('9')">
+            <input class="button" value="*" type="button" onclick="insert('*')"><br>
+            <input class="button" value="4" type="button" onclick="insert('4')">
+            <input class="button" value="5" type="button" onclick="insert('5')">
+            <input class="button" value="6" type="button" onclick="insert('6')">
+            <input class="button" value="+" type="button" onclick="insert('+')"><br>
+            <input class="button" value="1" type="button" onclick="insert('1')">
+            <input class="button" value="2" type="button" onclick="insert('2')">
+            <input class="button" value="3" type="button" onclick="insert('3')">
+            <input class="button" value="-" type="button" onclick="insert('-')"><br>
+            <input class="button" value="0" type="button" onclick="insert('0')">
+            <input class="button" value="00" type="button" onclick="insert('00')">
+            <input class="button" value="." type="button" onclick="insert('.')">
+            <input class="button" value="=" type="button" onclick="equal()">
+        </div>
+        
+    </body>
+    <script src="script.js"></script>
+</html>
